@@ -1,0 +1,131 @@
+.shifokorlar_royxati_style {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  color: #fff;
+}
+.shifokorlar_royxati_style h2 {
+  font-size: 34px;
+  color: black;
+}
+.shifokor_surname_name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+}
+.qator_shifokor {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.shifokorlar_royxati_style input {
+  width: 30px;
+  height: 30px;
+  border: solid 102px rgb(116, 231, 116);
+  cursor: pointer;
+}
+.shifokor_boxing {
+  padding: 15px;
+  width: 1200px;
+  background: #210e5a;
+  border-radius: 20px;
+}
+.shifokor_boxing h1 span {
+  color: rgb(0, 255, 234);
+}
+.shifokor_boxing h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.shifokor_boxing p {
+  font-size: 20px;
+  color: #0b1a9d;
+}
+.shifokor_boxing p span {
+  color: rgb(21, 31, 29);
+}
+.shifokor_info {
+  background: #7fd1d1;
+  border-radius: 20px;
+  padding: 10px;
+  transition: max-height 3s ease;
+}
+.harakat_box {
+  display: flex;
+  gap: 10px;
+}
+
+.button_list_doctor {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+.harakat_box button {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  padding: 3px;
+  border-radius: 20px;
+  background: blue;
+  color: #fff;
+}
+.harakat_box button:hover {
+  background: rgb(86, 86, 230);
+}
+.delete-btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: rgb(56, 16, 187);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  background-color: rgb(39, 114, 219);
+}
+.hide {
+  display: none;
+}
+.button_list {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+.toggle-info-btn {
+  background-color: #007bff; /* Asl rang */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Rang o'zgarishi uchun animatsiya */
+}
+
+.hidden-buttons {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden; /* Kengaytirish va qisqartirish uchun */
+  transition: max-height 0.3s ease, opacity 0.3s ease; /* Animatsiya davomiyligi */
+}
+
+#hiddenButtons {
+  display: none; /* Dastlab ko'rinmas */
+}
+.hide {
+  display: none;
+}
+.shifokor_boxing {
+  margin-bottom: 10px;
+}

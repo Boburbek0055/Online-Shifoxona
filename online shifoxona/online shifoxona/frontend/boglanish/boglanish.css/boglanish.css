@@ -1,0 +1,179 @@
+.aloqa {
+  margin: 0 auto;
+  width: 1410px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: rgb(111, 156, 111);
+  padding: 50px 0px 50px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.head .kursatkich {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.head .kursatkich a {
+  color: rgb(25, 72, 241);
+  cursor: pointer;
+  font-size: 18px;
+  list-style: none;
+  text-decoration: none;
+}
+.head .kursatkich p {
+  color: #0928c2;
+}
+.kursatkich img {
+  width: 20px;
+  height: 20px;
+}
+.b_ish {
+  color: rgb(27, 44, 201);
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1410px;
+  height: auto;
+  background: #223a54;
+  border-radius: 20px;
+  box-shadow: #85433a;
+}
+.info .aloqa_xodim {
+  width: 600px;
+  height: 300px;
+  border-radius: 0 20px 20px 0;
+}
+.info_boxses {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  margin-left: 20px;
+}
+.info_boxses img {
+  width: 60px;
+  height: 60px;
+}
+.tartib {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.tel_raq_email {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.tel_raq_email p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgb(83, 114, 114);
+  height: 1px;
+}
+.tel_raq_email a {
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  transition: 0.3s;
+}
+.tel_raq_email a:hover {
+  color: rgb(8, 191, 188);
+}
+/* section 2 */
+.qayta_aloqa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background: #223a54;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 1410px;
+  height: auto;
+  padding: 35px 0 35px 0;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.qayta_aloqa form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 1410px;
+}
+.qayta_aloqa form .form_box {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1350px;
+}
+.qayta_aloqa form .form_box label {
+  color: #fff;
+}
+.qayta_aloqa form span {
+  color: rgb(235, 80, 80);
+  font-size: 25px;
+}
+.qayta_aloqa form .form_box .ism {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 60px;
+}
+
+.qayta_aloqa form .ism input {
+  background: #37587b;
+  width: 350px;
+  height: 20px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+.qayta_aloqa form .ism input :focus {
+  background: #223a54;
+  outline: none;
+}
+.qayta_aloqa form .ism_text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 20px;
+}
+.qayta_aloqa form .ism_text input {
+  width: 1350px;
+  height: 100px;
+  background: #37587b;
+  border: none;
+  border-radius: 15px;
+}
+.qayta_aloqa form .ism_text {
+  color: #fff;
+}
+.qayta_aloqa form .ism_text input:focus {
+  background: #37587b;
+  border: none;
+  width: 1350px;
+  height: 100px;
+}
+.yuborish_form button {
+  width: 1350px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  background: rgb(48, 210, 48);
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.yuborish_form button:hover {
+  background: rgb(80, 80, 227);
+}

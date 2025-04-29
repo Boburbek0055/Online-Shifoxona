@@ -1,0 +1,78 @@
+.shifokorlar_royxati_utkaz {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  height: auto;
+  padding: 30px;
+}
+.shifokorlar_royxati_utkaz form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.doc_input {
+  width: 900px;
+}
+.doc_input label {
+  display: block;
+  padding-bottom: 10px;
+  width: 40px;
+  margin-left: 10px;
+  font-size: 28px;
+  cursor: pointer;
+  color: #f7fafa;
+  font-weight: bold;
+}
+.doc_input input {
+  width: 900px;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #38b890;
+  font-size: 16px;
+  color: #fff;
+}
+.doc_input input::placeholder {
+  color: #dccccc;
+}
+.doc_input input:focus {
+  border: none;
+  background: #6c958b;
+  color: #fff;
+}
+.tel_raq {
+  background: #38b890;
+  width: 920px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.tel_raq label {
+  display: inline;
+}
+.tel_raq input {
+  width: 850px;
+  background: #38b890;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+.shifokorlar_royxati_utkaz button {
+  width: 300px;
+  height: 35px;
+  background: rgb(12, 41, 206);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s ease;
+  margin-bottom: 20px;
+}
+.shifokorlar_royxati_utkaz button:hover {
+  background: rgb(14, 185, 14);
+}

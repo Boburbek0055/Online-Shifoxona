@@ -1,0 +1,75 @@
+.shifokorlar_login {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  padding: 100px 15px 220px 15px;
+  background: url(../img/logo/abstract-modern-blue-flowing-lines.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-y: hidden;
+}
+.login_sarlavha {
+  margin: 0 auto;
+  text-align: center;
+  width: 450px;
+  height: 450px;
+  padding: 20px;
+  border-radius: 20px;
+  border-top: solid 9px #32dcef;
+  border-bottom: solid 9px #32dcef;
+  backdrop-filter: blur(30px);
+  background-color: rgba(129, 171, 182, 0.1);
+  box-shadow: 0 40px 40px rgba(203, 28, 28, 0.1);
+}
+.login_sarlavha img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.login_sarlavha h1 {
+  color: aliceblue;
+  font-size: 35px;
+}
+.login_sarlavha p {
+  color: aliceblue;
+  font-size: 16px;
+}
+.login_sarlavha form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.login_sarlavha form label {
+  display: block;
+  text-align: left;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 80px;
+  padding-bottom: 8px;
+}
+
+.login_sarlavha form input {
+  width: 300px;
+  height: 18px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  backdrop-filter: blur(100px);
+  background-color: rgba(28, 155, 181, 0.1);
+}
+
+.login_sarlavha button {
+  width: 310px;
+  height: 30px;
+  border-radius: 20px;
+  background: #32dcef;
+  border: none;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 18px;
+  margin-top: 25px;
+}
+.login_sarlavha button:hover {
+  background: rgb(31, 217, 68);
+}

@@ -1,0 +1,52 @@
+.bemorlar_royxati {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1010px;
+  margin: 0 auto;
+  height: auto;
+  padding: 70px 15px 70px 15px;
+}
+.bemorlar_royxati img {
+  width: 600px;
+  height: 400px;
+  border-radius: 300px;
+}
+.bemor_information {
+  width: 300px;
+  height: 250px;
+}
+.bemor_information h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: rgb(250, 252, 252);
+}
+.bemor_information a button {
+  border-radius: 20px;
+  border: none;
+  background: #4eb0f7;
+  color: #fff;
+  width: 300px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 30px;
+}
+.bemor_information a button:hover {
+  background: #1dd60d;
+}
+.shifokorlar_royxati {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1010px;
+  margin: 0 auto;
+  height: auto;
+  padding: 70px 15px 70px 15px;
+}
+.shifokorlar_royxati img {
+  width: 600px;
+  height: 400px;
+  border-radius: 100px;
+}

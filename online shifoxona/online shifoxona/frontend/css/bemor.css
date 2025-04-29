@@ -1,0 +1,65 @@
+.bemor_form_section {
+  width: 100%;
+  max-width: 1410px;
+  margin: 0 auto;
+  height: auto;
+  padding: 50px 0 50px 0;
+}
+.bemor_form_section form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  height: auto;
+}
+.bemor_form_section form .l_input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+}
+.bemor_form_section form .l_input label {
+  color: #042366;
+  width: 30px;
+  cursor: pointer;
+}
+.bemor_form_section form .l_input input {
+  width: 1410px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: rgb(38, 195, 231);
+  font-size: 16px;
+}
+.bemor_form_section form .l_input input:focus {
+  border: none;
+  background: rgb(38, 195, 231);
+}
+.tel_number {
+  background: rgb(38, 195, 231);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+.bemor_form_section .qoshish {
+  margin-top: 20px;
+  width: 100%;
+  text-align: end;
+}
+.bemor_form_section .qoshish button {
+  width: 400px;
+  height: 50px;
+  border-radius: 20px;
+  background: rgb(9, 214, 136);
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+}
+.bemor_form_section button:hover {
+  background: rgb(9, 204, 214);
+  color: blue;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <nav>
+          <a href="../index.html">
+            <img
+              src=".././img/logo/photo_2025-03-04_06-01-39.jpg"
+              alt="no photo"
+            />
+          </a>
+          <div class="bemor_qoshish">
+            <a href=""><button>Shifokor qo'shish</button></a>
+          </div>
+        </nav>
+        <div class="header_box" id="headerBox">
+          <img
+            src=".././img/logo/pngtree-magnifying-glass-icon-png-image_4419957.jpg"
+            alt="no photo"
+            id="lupaIcon"
+            style="cursor: pointer"
+          />
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Bemor ismini kiriting..."
+          />
+          <button id="searchButton">Qidirish</button>
+        </div>
+      </section>
+    </header>
+    <section class="bemor_form_section">
+      <form id="bemorForm" onsubmit="return handleBemorSubmit(event)">
+        <div class="l_input">
+          <label for="ot">Ism</label>
+          <input type="text" placeholder="Bemor ismi ..." id="ot" required />
+        </div class="l_input">
+        <div class="l_input">
+          <label for="surname">Familiya</label>
+          <input
+            type="text"
+            placeholder="Familiyasi kiriting ..."
+            id="surname"
+            required
+          />
+        </div>
+        <div class="l_input">
+          <label for="age">Yoshi</label>
+          <input
+            type="number"
+            placeholder="Yoshi kiriting ..."
+            id="age"
+            required
+          />
+        </div>
+        <div class="l_input">
+          <label for="adress">Yashash manzili</label>
+          <input
+            type="text"
+            placeholder="Yashash manzili ..."
+            id="adress"
+            required
+          />
+        </div>
+        <div class="l_input">
+          <label for="tel">Telefon raqami</label>
+          <div class="tel_number">
+            <span>+998</span>
+            <input type="tel" placeholder="00 000 00 00" id="tel" required />
+          </div>
+        </div>
+        <div class="l_input">
+          <label for="hepen">Bemor holati</label>
+          <input
+            type="text"
+            placeholder="Holati qay ahvolda ..."
+            id="hepen"
+            required
+          />
+        </div>
+        <div class="l_input">
+          <label for="xona">Xona raqami</label>
+          <input type="number" placeholder="Xona raqami" id="xona" required />
+        </div>
+        <div class="qoshish">
+          <button type="submit">Qo'shish</button>
+        </div>
+      </form>
+      <div class="bemor_information">
+        <a href="../html/bemorlar_ruyxati.html"><button>Bemorlar ro'yxati</button></a>
+      </div>
+      <div class="message" id="successMessage" style="display: none">
+        Amaliyot muvaffaqiyatli bajarildi!
+      </div>
+    </section>
+    <div class="after">
+      <p>Sayt Meyliyev Bobur, Oqmardiyev Sardor tomonidan ishlab chiqilgan.</p>
+    </div>
+    <script type="module" src="../index.js"></script>
+    <script src="../../backend/index.js"></script>
+  </body>
+</html>

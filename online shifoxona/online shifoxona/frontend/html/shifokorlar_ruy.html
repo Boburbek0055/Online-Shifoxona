@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <nav>
+          <a href="../index.html">
+            <img
+              src=".././img/logo/photo_2025-03-04_06-01-39.jpg"
+              alt="no photo"
+            />
+          </a>
+          <div class="bemor_qoshish">
+            <a href="./shifokor_ruy_utkazish.html"
+              ><button>Shifokor qo'shish</button></a
+            >
+          </div>
+        </nav>
+        <div class="header_box" id="headerBox">
+          <img
+            src=".././img/logo/pngtree-magnifying-glass-icon-png-image_4419957.jpg"
+            alt="no photo"
+            id="lupaIcon"
+            style="cursor: pointer"
+          />
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Bemor ismini kiriting..."
+          />
+          <button id="searchButton">Qidirish</button>
+        </div>
+      </section>
+    </header>
+    <section class="shifokorlar_royxati_style" id="shifokorlarRoyxati">
+      <h2>Shifokorlar Ro'yxati:</h2>
+      <div class="button_list_doctor" id="botton_har">
+        <button
+          class="delete-btn"
+          id="toggleDeleteBtn"
+          onclick="toggleDeleteMode()"
+        >
+          tanlash
+        </button>
+        <button
+          class="delete-btn hide"
+          id="deleteSelectedBtn"
+          onclick="deleteSelected()"
+        >
+          Tanlanganlarni O'chirish
+        </button>
+        <button
+          class="delete-btn hide"
+          id="selectAllBtn"
+          onclick="selectAllCheckboxes()"
+        >
+          Hammasini belgilash
+        </button>
+      </div>
+      <div class="qator_shifokor" id="shifokorList"></div>
+    </section>
+    <div class="after">
+      <p>Sayt Meyliyev Bobur, Oqmardiyev Sardor tomonidan ishlab chiqilgan.</p>
+    </div>
+    <script type="module" src="../index.js"></script>
+    <script src="../../backend/index.js"></script>
+    <script src="../../backend/doctor_qush.js"></script>
+
+    <script src="../../backend/harakat.js"></script>
+  </body>
+</html>

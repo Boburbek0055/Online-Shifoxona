@@ -1,0 +1,138 @@
+.kitob_information_section {
+  width: 100%;
+  max-width: 1410px;
+  height: auto;
+  margin: 0 auto;
+  padding: 100px 15px 30px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bosh_reclama {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.bosh_reclama_box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.bosh_reclama_box h2 {
+  font-size: 70px;
+  color: #fff;
+}
+.bosh_reclama_box p {
+  font-size: 20px;
+  color: #2335d2;
+}
+.bosh_reclama img {
+  width: 700px;
+  height: 500px;
+  background: rgb(6, 154, 176);
+  border-radius: 30px;
+}
+.kitob_text {
+  padding: 50px 0 0px 0;
+  color: #15299e;
+  font-size: 20px;
+}
+/* jamoa */
+.jamoa_section {
+  width: 100%;
+  max-width: 1410px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 70px 15px 100px 15px;
+}
+.jamoa_section h4 {
+  text-align: center;
+  color: #133946;
+  font-size: 40px;
+}
+.jamoa_box {
+  display: flex;
+  justify-content: space-between;
+}
+.jamoa_info {
+  text-align: center;
+  width: 300px;
+  height: 500px;
+  box-shadow: 0 4px 20px rgba(189, 62, 62, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 10px;
+  background: #199177;
+  box-shadow: 0 4px 20px rgba(213, 194, 194, 0.1);
+  color: #fafbfe;
+  overflow: hidden;
+}
+.jamoa_info::after {
+  content: "";
+  position: absolute; /* Absolut pozitsiya */
+  left: 0%; /* O'rtaga joylash */
+  bottom: -50%; /* Yozuvning o'rtasiga joylash */
+  width: 100%; /* To'liq kenglik */
+  height: 500px; /* Chiziq balandligi */
+  background: rgb(137, 137, 173); /* Chiziq rangi */
+  transform: translatey(-0%) scaley(0); /* O'rtadan boshlanishi va ko'rsatkich */
+  transition: transform 0.3s ease;
+  border-radius: 10px; /* O'zgarish animatsiyasi */
+  color: #162542;
+  text-align: center;
+}
+
+.jamoa_info:hover::after {
+  transform: translatey(-50%) scaleX(1);
+}
+.jamoa_info img {
+  border-radius: 10px 10px 0px 0px;
+  height: auto;
+  width: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0); /* Dastlabki holat */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: background 0.1s ease, opacity 0.1s ease; /* O'zgarishlar */
+  opacity: 0; /* Dastlabki holat */
+  z-index: 1; /* Overlayni yuqoriga qo'yish */
+}
+
+.jamoa_info:hover .hover-overlay {
+  background: rgba(255, 255, 255, 0.8); /* Hover holatida oq rang */
+  opacity: 1; /* Overlay ko'rinadi */
+}
+
+.jamoa_info:hover .text-info {
+  opacity: 0; /* Matn shaffof bo'ladi */
+}
+.hover-overlay h2 {
+  margin-top: 80px;
+  color: black;
+  font-size: 30px;
+}
+.hover-overlay span {
+  color: #162542; /* Matn rangi */
+  font-size: 24px; /* Matn o'lchami */
+  margin-bottom: 10px; /* Matn va ikoncha o'rtasidagi masofa */
+}
+
+.telegram-icon img {
+  margin-bottom: 40px;
+  width: 60px; /* Ikonchaning o'lchami */
+  height: auto;
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+}
+.telegram-icon img:hover {
+  transform: scale(1.15);
+}

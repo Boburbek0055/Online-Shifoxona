@@ -1,0 +1,115 @@
+.bemorlar_royxati_section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  color: #fff;
+}
+.bemorlar_royxati_section h2 {
+  font-size: 35px;
+  color: blue;
+}
+.bemor_surname_name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.qator_bem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.bemorlar_royxati_section input {
+  width: 30px;
+  height: 30px;
+  border: solid 102px green;
+  cursor: pointer;
+}
+.bemor_boxing {
+  padding: 15px;
+  width: 1200px;
+  background: rgb(7, 185, 185);
+  border-radius: 20px;
+}
+.bemor_boxing h1 span {
+  color: rgb(255, 102, 0);
+}
+.bemor_boxing h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.bemor_boxing p {
+  font-size: 20px;
+}
+.bemor_boxing p span {
+  color: rgb(75, 75, 198);
+}
+.bemor_info {
+  border-radius: 20px;
+  background: rgb(126, 200, 160);
+  padding: 10px;
+  transition: max-height 3s ease;
+}
+.harakat_box {
+  display: flex;
+  gap: 10px;
+}
+.harakat_box button {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  padding: 3px;
+  border-radius: 20px;
+  background: blue;
+  color: #fff;
+}
+.harakat_box button:hover {
+  background: rgb(86, 86, 230);
+}
+.delete-btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: rgb(56, 16, 187);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  background-color: rgb(39, 114, 219);
+}
+.hide {
+  display: none;
+}
+.button_list {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+.toggle-info-btn {
+  background-color: #007bff; /* Asl rang */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Rang o'zgarishi uchun animatsiya */
+}
+
+.hidden-buttons {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden; /* Kengaytirish va qisqartirish uchun */
+  transition: max-height 0.3s ease, opacity 0.3s ease; /* Animatsiya davomiyligi */
+}
+
+#hiddenButtons {
+  display: none; /* Dastlab ko'rinmas */
+}

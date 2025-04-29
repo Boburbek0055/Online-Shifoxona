@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <nav>
+          <a href="../index.html">
+            <img
+              src=".././img/logo/photo_2025-03-04_06-01-39.jpg"
+              alt="no photo"
+            />
+          </a>
+        </nav>
+        <div class="header_box" id="headerBox">
+          <img
+            src=".././img/logo/pngtree-magnifying-glass-icon-png-image_4419957.jpg"
+            alt="no photo"
+            id="lupaIcon"
+            style="cursor: pointer"
+          />
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Bemor ismini kiriting..."
+          />
+          <button id="searchButton">Qidirish</button>
+        </div>
+      </section>
+    </header>
+    <section class="shifokorlar_royxati_utkaz">
+      <form id="doctorForm" onsubmit="return handleDoctorSubmit(event)">
+        <div class="doc_input">
+          <label for="nam">Ismi</label>
+          <input
+            type="text"
+            id="nam"
+            placeholder="Ismini kiriting ..."
+            required
+          />
+        </div>
+        <div class="doc_input">
+          <label for="surnam">Familyasi</label>
+          <input
+            type="text"
+            id="surnam"
+            placeholder="Familyasini kiriting ..."
+            required
+          />
+        </div>
+        <div class="doc_input">
+          <label for="specialist">Mutaxasisligi</label>
+          <input
+            type="text"
+            id="specialist"
+            placeholder="Qaysi yo'nalishda ..."
+            required
+          />
+        </div>
+        <div class="tel_raq">
+          <label for="telef">+998</label>
+          <input type="tel" id="telef" placeholder="00 000 00 00" required />
+        </div>
+        <div class="doc_input">
+          <label for="xonaNum">Qabul xonasi</label>
+          <input type="number" id="xonaNum" placeholder="000" required />
+        </div>
+        <button type="submit">Qo'shish</button>
+      </form>
+      <a href="./shifokorlar_ruy.html"
+        ><button>Shifokorlar ruyxtini ko'rish</button></a
+      >
+      <div class="message" id="successMessage" style="display: none">
+        Shifokor muvaffaqiyatli qo'shildi!
+      </div>
+    </section>
+
+    <div class="after">
+      <p>Sayt Meyliyev Bobur, Oqmardiyev Sardor tomonidan ishlab chiqilgan.</p>
+    </div>
+    <script type="module" src="../index.js"></script>
+    <script src="../../backend/index.js"></script>
+    <script src="../../backend/doctor_qush.js"></script>
+  </body>
+</html>

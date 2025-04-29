@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="shifokorlar_login">
+      <div class="login_sarlavha">
+        <img src="./img/logo/photo_2025-03-04_06-01-39.jpg" alt="no photo" />
+        <h1>Medisine</h1>
+        <p>Online shifoxonasi tizimi</p>
+        <p>Shifokorlar uchun</p>
+        <form id="loginForm" onsubmit="return handleSubmit(event)">
+          <div class="logi_par">
+            <label for="login">Login</label>
+            <input type="text" id="login" placeholder="LOGIN" required />
+          </div>
+          <div class="logi_par">
+            <label for="parol">Parol</label>
+            <input type="password" id="parol" placeholder="PAROL" required />
+          </div>
+          <button type="submit">KIRISH</button>
+        </form>
+      </div>
+    </section>
+    <script type="module" src="./index.js"></script>
+    <script src="../backend/index.js"></script>
+    <script src="../backend/doctor_qush.js"></script>
+  </body>
+</html>
